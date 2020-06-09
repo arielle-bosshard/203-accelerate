@@ -10,8 +10,12 @@ Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibi
 Text Domain:  accelerate-theme-child
 */
 
+ul {
+    list-style-type: none;
+}
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    margin: 0 0 4em;
 }
 
 #masthead {
@@ -21,23 +25,118 @@ Text Domain:  accelerate-theme-child
 .button {
 	background: #45ac9d;
 }
+.featured-work h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1em 0 3em; 
+}
+.homepage-featured-work {
+    margin: 0;
+}
+.homepage-featured-work ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.homepage-featured-work li{
+    width: 31%;
+    float: left;
+    margin: 0em .5em;
+    text-decoration: none;
+    list-style-type: none;
+}
+.homepage-featured-work li h3 {
+    font: 300 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
 .blog-post {
     width: 50%;
     float: left;
-    margin-bottom: 2em;
+    margin: 2em;
 }
 .blog-post h4 {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
     text-transform: uppercase;
-    margin: 2em 0 .5em; 
+    margin: 2em 0; 
 }
 .blog-post h3 {
     font-size: 1.5em;
+    margin: 0em;
 }
 .read-more-link {
 	font-family: 'Montserrat';
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+/* Case Studies */
+aside.case-study-sidebar {
+    float: left;
+    width: 300px;
+    margin-right: 1em;
+}
+div.case-study-images {
+    float: left;
+    width: 600px;
+}
+aside.case-study-sidebar h2 {
+    margin-bottom: 0;
+}
+aside.case-study-sidebar h4 {
+    color: #a6a6a6;
+    font: 300 0.85em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    margin: 0 0 2em;
+}
+aside.case-study-sidebar h4 span {
+    color: #3b3b3b;
+}
+aside.case-study-sidebar p {
+    font-size: 0.85em;
+    margin: 2em 0;
+}
+
+/* Case Study Archive */
+div.case-study-images img {
+	width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+/*Social Media Menu */
+footer.div.social-media-menu ul {
+    list-style-type: none;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar */
 }
