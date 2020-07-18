@@ -52,12 +52,12 @@ ul {
     margin: 0;
     text-align: center;
 }
-.blog-post {
-    width: 50%;
+.blog-post, .sidebar {
+    width: 45%;
     float: left;
-    margin: 2em;
+    margin: 1em;
 }
-.blog-post h4 {
+.blog-post h4, .sidebar h3 {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
     text-transform: uppercase;
@@ -67,11 +67,12 @@ ul {
     font-size: 1.5em;
     margin: 0em;
 }
-.read-more-link {
+.read-more-link, .sidebar a#follow-button.btn  {
 	font-family: 'Montserrat';
 	font-weight: 700;
 	color: #45ac9d;
-	text-transform: uppercase;
+    text-transform: uppercase;
+    background-color: none;
 }
 
 /* Case Studies */
@@ -117,9 +118,118 @@ div.case-study-images img {
     color: #ffffff;
 }
 
-footer ul {
-
-}
 footer ul li {
     display: inline-block;
+}
+
+
+/* Contact Form */
+
+#nf-field-1-container, #nf-field-2-container {
+    width: 50%;
+    float: left;
+    clear: none;
+}
+#nf-field-1-container {
+    padding-right: 1em;
+}
+#nf-field-2-container {
+    padding-left: 1em;
+}
+#nf-field-3-container {
+    width: 100%;
+    clear: both;
+}
+
+/* Services Page */
+
+.main-content {
+    padding-top: 0;
+}
+.hero-content {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: 350px;
+    margin: 0 0 5em;
+    padding: 8em 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content h3 {
+    width: 50%;
+    display: flex;
+    margin: 0;
+}
+.body-content {
+    width: 90%;
+    margin: 0 auto;
+}
+div.service-intro {
+    text-align: center;
+}
+div.service-intro h4 {
+    text-transform: uppercase;
+}
+.body-content p {
+    padding: 2em 0;
+}
+.body-content img {
+    width: 25%;
+    padding: 1em;
+}
+.image-left, .image-right {
+    height: 200px;
+}
+.image-left img {
+    float: left;
+}
+.image-right img {
+    float: right;
+}
+.image-left p, .image-left h2 {
+    width: 70%;
+    float: right;
+    margin: 0;
+}
+.image-right h2, .image-right p {
+    width: 70%;
+    float: left;
+    margin: 0;
+}
+#contact-button {
+    clear: both;
+    width: 90%;
+    margin: auto;
+}
+#contact-button h2, #contact-button.button {
+    width: 50%;
+}
+#contact-button h2 {
+    float: left;
+    text-align: center;
+}
+#contact-button.button {
+    float: right;
+    overflow: auto;
+}
+
+/* 404 Page */
+.not-found, .not-found#main {
+    margin: 0em;
+}
+.unfound {
+    background: url("img/index.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: auto;
+    margin: 0;
+    padding: 8em 0;
+    text-align: center;
+}
+.unfound h2, .unfound p {
+    margin: 0em;
+    color: rgb(175, 2, 2);
+    font-size: 2em;
+}
+.unfound h2 span {
+    font-family: 'Staatliches', cursive;
 }
