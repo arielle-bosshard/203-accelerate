@@ -1,3 +1,27 @@
+##### [Version 3.2.14](https://github.com/Codeinwp/themeisle-sdk/compare/v3.2.13...v3.2.14) (2020-06-10)
+
+> Things are getting better every day. 🚀
+
+##### [Version 3.2.13](https://github.com/Codeinwp/themeisle-sdk/compare/v3.2.12...v3.2.13) (2020-06-10)
+
+Adds plan logic and expiration
+
+##### [Version 3.2.12](https://github.com/Codeinwp/themeisle-sdk/compare/v3.2.11...v3.2.12) (2020-06-10)
+
+Adds key filter
+
+##### [Version 3.2.11](https://github.com/Codeinwp/themeisle-sdk/compare/v3.2.10...v3.2.11) (2020-06-04)
+
+* remove non-printable chars
+
+##### [Version 3.2.10](https://github.com/Codeinwp/themeisle-sdk/compare/v3.2.9...v3.2.10) (2020-05-28)
+
+* Remove extra files on export
+
+##### [Version 3.2.9](https://github.com/Codeinwp/themeisle-sdk/compare/v3.2.8...v3.2.9) (2020-05-18)
+
+adds new endpoints
+
 ##### [Version 3.2.8](https://github.com/Codeinwp/themeisle-sdk/compare/v3.2.7...v3.2.8) (2020-03-24)
 
 * change license handler method access

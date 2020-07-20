@@ -79,17 +79,17 @@
     },
     {
         "name": "codeinwp/themeisle-sdk",
-        "version": "3.2.8",
-        "version_normalized": "3.2.8.0",
+        "version": "3.2.14",
+        "version_normalized": "3.2.14.0",
         "source": {
             "type": "git",
             "url": "https://github.com/Codeinwp/themeisle-sdk.git",
-            "reference": "ce152edef1634d7c3ce75ed292efcc7a5f73806e"
+            "reference": "992f5e8347836e325ffc50760da1d550b79831c4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/ce152edef1634d7c3ce75ed292efcc7a5f73806e",
-            "reference": "ce152edef1634d7c3ce75ed292efcc7a5f73806e",
+            "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/992f5e8347836e325ffc50760da1d550b79831c4",
+            "reference": "992f5e8347836e325ffc50760da1d550b79831c4",
             "shasum": ""
         },
         "require-dev": {
@@ -97,7 +97,7 @@
             "squizlabs/php_codesniffer": "^3.1",
             "wp-coding-standards/wpcs": "^1.0.0"
         },
-        "time": "2020-03-24 16:54:54",
+        "time": "2020-06-10 16:25:09",
         "type": "library",
         "installation-source": "dist",
         "notification-url": "https://packagist.org/downloads/",
@@ -119,17 +119,17 @@
     },
     {
         "name": "codeinwp/gutenberg-menu-icons",
-        "version": "1.0.3",
-        "version_normalized": "1.0.3.0",
+        "version": "1.0.4",
+        "version_normalized": "1.0.4.0",
         "source": {
             "type": "git",
             "url": "https://github.com/Codeinwp/gutenberg-menu-icons.git",
-            "reference": "145937bdef676f1605d94ac7e8e4ee5f33af8a59"
+            "reference": "121ef82c57a556301265cbd1032d28619235e488"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Codeinwp/gutenberg-menu-icons/zipball/145937bdef676f1605d94ac7e8e4ee5f33af8a59",
-            "reference": "145937bdef676f1605d94ac7e8e4ee5f33af8a59",
+            "url": "https://api.github.com/repos/Codeinwp/gutenberg-menu-icons/zipball/121ef82c57a556301265cbd1032d28619235e488",
+            "reference": "121ef82c57a556301265cbd1032d28619235e488",
             "shasum": ""
         },
         "require-dev": {
@@ -139,7 +139,7 @@
             "squizlabs/php_codesniffer": "^3.3",
             "wp-coding-standards/wpcs": "^1"
         },
-        "time": "2020-04-21 18:06:08",
+        "time": "2020-05-17 21:08:46",
         "type": "library",
         "installation-source": "dist",
         "autoload": {

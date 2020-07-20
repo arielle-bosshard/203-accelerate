@@ -52,10 +52,17 @@ ul {
     margin: 0;
     text-align: center;
 }
+.mc4wp-form-fields input {
+    width: 100%;
+}
+.mc4wp-form-fields .button{
+    text-align: center;
+    background: #45ac9d;
+}
 .blog-post, .sidebar {
-    width: 45%;
+    margin: 1em 5%;
+    width: 40%;
     float: left;
-    margin: 1em;
 }
 .blog-post h4, .sidebar h3 {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
@@ -157,62 +164,50 @@ footer ul li {
     align-items: center;
 }
 .hero-content h3 {
-    width: 50%;
-    display: flex;
-    margin: 0;
+   text-align: center;
+   margin: auto 5%;
+   margin-bottom: 1em;
 }
 .body-content {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
-}
-div.service-intro {
     text-align: center;
 }
-div.service-intro h4 {
+.body-content h4 {
     text-transform: uppercase;
 }
-.body-content p {
-    padding: 2em 0;
-}
-.body-content img {
-    width: 25%;
-    padding: 1em;
-}
-.image-left, .image-right {
-    height: 200px;
-}
-.image-left img {
-    float: left;
-}
-.image-right img {
-    float: right;
-}
-.image-left p, .image-left h2 {
+.service-intro {
     width: 70%;
-    float: right;
-    margin: 0;
 }
-.image-right h2, .image-right p {
-    width: 70%;
-    float: left;
-    margin: 0;
+.t-content {
+    margin-bottom: 3em;
 }
-#contact-button {
-    clear: both;
+.t-content h2, .t-content p {
+    margin: auto 1em;
+}
+.t-content img {
+    margin: 2.5em 0;
+}
+.t-content td {
+    width: 30%;
+    vertical-align: middle;
+}
+
+#contact-button table {
     width: 90%;
-    margin: auto;
+    margin: 0 5%;
+    border-top: solid 1px #909090;
 }
-#contact-button h2, #contact-button.button {
+#contact-button table td {
     width: 50%;
 }
-#contact-button h2 {
-    float: left;
-    text-align: center;
+#contact-button table h2 {
+    text-align: right;
 }
-#contact-button.button {
-    float: right;
-    overflow: auto;
+#contact-button table td .button {
+    margin-left: 3em;
 }
+
 
 /* 404 Page */
 .not-found, .not-found#main {

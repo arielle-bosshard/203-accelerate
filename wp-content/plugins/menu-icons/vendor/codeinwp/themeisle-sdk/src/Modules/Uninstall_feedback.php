@@ -40,7 +40,7 @@ class Uninstall_Feedback extends Abstract_Module {
 	 *
 	 * @var string Endpoint url.
 	 */
-	const FEEDBACK_ENDPOINT = 'http://feedback.themeisle.com/wordpress/wp-json/__pirate_feedback_/v1/feedback';
+	const FEEDBACK_ENDPOINT = 'https://api.themeisle.com/tracking/uninstall';
 
 	/**
 	 * Default options for plugins.
@@ -109,7 +109,7 @@ class Uninstall_Feedback extends Abstract_Module {
 	 *
 	 * @var string $heading_plugin The heading of the modal
 	 */
-	private $heading_plugin = 'What’s wrong?';
+	private $heading_plugin = 'What\'s wrong?';
 	/**
 	 * Default heading for theme.
 	 *
@@ -698,6 +698,7 @@ class Uninstall_Feedback extends Abstract_Module {
 				'title' => 'Below is a detailed view of all data that ThemeIsle will receive if you fill in this survey. No domain name, email address or IP addresses are transmited after you submit the survey.',
 				'items' => [
 					sprintf( '%s %s version %s %s %s %s', '<strong>', ucwords( $this->product->get_type() ), '</strong>', '<code>', $this->product->get_version(), '</code>' ),
+					sprintf( '%sCurrent website:%s %s %s %s', '<strong>', '</strong>', '<code>', get_site_url(), '</code>' ),
 					sprintf( '%s Uninstall reason %s %s Selected reason from the above survey %s ', '<strong>', '</strong>', '<i>', '</i>' ),
 				],
 			],
@@ -782,6 +783,7 @@ class Uninstall_Feedback extends Abstract_Module {
 		$version               = $this->product->get_version();
 		$attributes['slug']    = $slug;
 		$attributes['version'] = $version;
+		$attributes['url']     = get_site_url();
 
 		$response = wp_remote_post(
 			self::FEEDBACK_ENDPOINT,

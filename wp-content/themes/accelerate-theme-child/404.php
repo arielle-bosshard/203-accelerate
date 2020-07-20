@@ -15,7 +15,7 @@
 get_header(); ?>
 
 	<div id="primary" class="not-found">
-		<div class="main-content" role="main">
+		<div class="main-content" role="main-404">
             <div class="unfound">
                 <h2>Ummm... We got a <span>404</span>...</h2>
                 <p><strong>Escape via any links in the nav section!<br>GO GO GO!!</strong></p>
